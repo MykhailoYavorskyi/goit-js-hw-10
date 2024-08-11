@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', function () {
   async function loadBreeds() {
     try {
       const breedSelect = document.querySelector('.breed-select');
-
       document.querySelector('.loader').classList.remove('hidden');
       breedSelect.classList.add('hidden');
       document.querySelector('.error').classList.add('hidden');
